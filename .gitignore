@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Build output
+dist/
+*.egg
+*.whl
+
+# Uploads
+api/uploads/
+
+# Docker volumes
+mysql-data/
+redis-data/
+es-data/
+kafka-data/
+zk-data/
+minio-data/
+spark-data/
+milvus-data/
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Node
+.pnp
+.pnp.js
+
+# Python
+*.so
